@@ -1,0 +1,27 @@
+input{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    outline: none;
+    border:none;
+    border-bottom: solid rgb(255, 114, 26);
+    font-size: 13px;
+  }
+
+  input::placeholder{
+    color: rgb(138, 138, 138);
+    text-align: left;
+  }
+
+  button{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding:20px 70px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+  }

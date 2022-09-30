@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+
+.body{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: #ffe259;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        min-height: 2000px;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 100px;
+  }
+  
+  #date{
+    padding: 10px 80px;
+    color: rgb(138, 138, 138);
+  }
+
+  p{
+    color: rgb(138, 138, 138);
+    font-size: 14px;    
+    display: flex;
+    align-items: flex-start;
+  }
